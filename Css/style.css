@@ -9,3 +9,11 @@
     padding-right: 25;
     
 }
+
+.content2{
+    width: 65%;
+    margin: auto;
+    align-content: center;
+    border-style: solid;
+    border-color: brown;
+}
