@@ -10,43 +10,74 @@
     <section class="content1">
         <h1>Formulario</h1>
         <form action="guardado.html" id="post">
-            <label>Código</label>
-            <input type="text" id="code">
+            <article id="article">
+                <table border="1" style="width: 50%;"
 
-            <br><br><label>Descripción</label>
-            <input type="text" id="description">
+                    <tr>
+                        <td><label>Código</label></td>
+                        <td><input type="text" id="code"></td>
+                    </tr>
 
-            <br><br><label>Código de barra</label>
-            <input type="text" id="barcode">
+                    <tr>
+                        <td><label>Descripción</label></td>
+                        <td><input type="text" id="description"></td>
+                    </tr>
 
-            <br><br><label>Precio unitario</label>
-            <input type="text" id="unit price">
+                    <tr>
+                        <td><label>Código de barra</label></td>
+                        <td><input type="text" id="barcode"></td>
+                    </tr>
 
-            <br><br><label>Stock</label>
-            <input type="text" id="Stock">
+                    <tr>
 
-            <br><br><label>Proveedor</label>
-            <input type="text" id="supplier">
+                        <td><label>Precio unitario</label></td>
+                        <td><input type="text" id="unit price"></td>
+                    </tr>
 
-            <br><br><label>Estado</label>
-            <input type="checkbox" id="state"><label> Activo</label>
+                    <tr>
+                        <td><label>Stock</label></td>
+                        <td><input type="text" id="Stock"></td>
+                    </tr>
 
-            <br><br>
-            <select id="Category">
-                <option>No seleccionado</option>
-                <option>Categoria 1</option>
-                <option>Categoria 2</option>
-                <option>Categoria 3</option>
-                <option>Categoria 4</option>
-            </select>
+                    <tr>
+                        <td><label>Proveedor</label></td>
+                        <td><input type="text" id="supplier"></td>
+                    </tr>
 
+                    <tr>
+                        <td><label>Estado</label></td>
+                        <td><input type="checkbox" id="state"><label> Activo</label></td>
+                    </tr>
 
+                    <tr>
+                        <td><label>Cateogoria:</label></td>
+                        <td>
+                            <select id="Category">
+                            <option>No seleccionado</option>
+                            <option>Categoria 1</option>
+                            <option>Categoria 2</option>
+                            <option>Categoria 3</option>
+                            <option>Categoria 4</option></td>
+                        
+                    </tr>
+            </article>
+            </tbody>
 
-            <br><br><input type="submit" id="btnGuardar" value="Guardar">
+            </table>
         </form>
 
-        <a href="index.html"><button>Cancel</button></a>
+        <article >
+            <form action="guardado.html" id="post">
+                <input id="btnguardado" type="submit" id="btnGuardar" value="Guardar">
+            </form>
+        </article>
 
+        <article>
+          <a href="./index.html">
+            <button id="btnCancel">Cancel</button>
+          </a>
+        </article>
+            
     </section>
 
 </body>
